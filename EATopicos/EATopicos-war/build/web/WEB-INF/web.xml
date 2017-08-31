@@ -5,9 +5,18 @@
         <servlet-class>cl.unab.ws.Topicos2ws</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
+    <servlet>
+        <servlet-name>Alumnos</servlet-name>
+        <servlet-class>cl.unab.ws.Alumnos</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Topicos2ws</servlet-name>
         <url-pattern>/Topicos2ws</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Alumnos</servlet-name>
+        <url-pattern>/Alumnos</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
