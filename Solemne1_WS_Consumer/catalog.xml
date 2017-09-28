@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost/Solemne1-war/Control1webservice?WSDL" uri="xml-resources/web-service-references/Control1webservice/wsdl/localhost/Solemne1-war/Control1webservice.wsdl"/>
+    <system systemId="http://localhost:80/Solemne1-war/Control1webservice?wsdl" uri="xml-resources/web-service-references/Control1webservice_1/wsdl/localhost_80/Solemne1-war/Control1webservice.wsdl"/>
+</catalog>
